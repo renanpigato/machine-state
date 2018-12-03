@@ -1,0 +1,20 @@
+{
+    "authors": [{
+        "name": "Renan Pigato Silva",
+        "email": "renan@renanpigato.inf.br"
+    }],
+    "require": {
+        "propel/propel": "2.0.0-alpha6"
+    },
+    "require-dev": {
+        "rafaelnery/phputils": "^2.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Classes\\"      : "classes",
+        "System\\"       : "system",
+        "Views\\"        : "views",
+        "StateMachine\\" : "models/StateMachine"
+      }
+    }
+}
